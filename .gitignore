@@ -1,0 +1,8 @@
+_local_only/
+data/
+outputs/
+**/data/
+**/outputs/
+PUSH_KOMUTLARI.sh
+.DS_Store
+.ipynb_checkpoints/
