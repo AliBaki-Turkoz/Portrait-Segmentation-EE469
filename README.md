@@ -77,8 +77,13 @@ UNet_Model/data/segmented_images/    # ground-truth masks (<id>_mask.png)
 
 Then run `main_segmentation.m` in MATLAB (Deep Learning Toolbox; the Keras importer support package is needed for `UNet_Segmentation.m`). Predictions are written to `outputs/masks` and per-image error maps and metrics to `outputs/err`. The baseline uses the same layout inside `Semantic_Segmentation_Baseline/`.
 
+The Python training part (`UNet_Model/python_training`) needs `pip install -r requirements.txt` (Python 3.9 on Colab; original versions were not recorded). The MATLAB toolboxes cannot be installed with pip.
+
 The training notebook reads the data from Google Drive (`/content/drive/MyDrive/EE469_Project`, with `rgb_images/` and `segmented_images/` subfolders); change `directory` in the notebook to point to your own copy.
 
 ## Tag
 
 `v1.0-course-submission` marks the state of the project as submitted for the course.
+
+## License
+The code in this repository is released under the [MIT License](LICENSE) (copyright the project team). Datasets, pretrained weights and third-party material keep their own licences and terms of use; they are not covered by this licence.
