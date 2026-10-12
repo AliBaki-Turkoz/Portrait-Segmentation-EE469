@@ -1,0 +1,12 @@
+# NOTE: the exact package versions used originally were not recorded.
+# These are the packages the code imports; install the newest compatible versions.
+# Python part (UNet_Model/python_training) ran on Google Colab, Python 3.9.
+# MATLAB part (.m files) needs MATLAB with the Deep Learning, Computer Vision
+# and Image Processing Toolboxes (not installable with pip).
+tensorflow
+numpy
+pandas
+matplotlib
+opencv-python
+Pillow
+imgaug
