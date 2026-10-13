@@ -84,6 +84,3 @@ The training notebook reads the data from Google Drive (`/content/drive/MyDrive/
 ## Tag
 
 `v1.0-course-submission` marks the state of the project as submitted for the course.
-
-## License
-The code in this repository is released under the [MIT License](LICENSE) (copyright the project team). Datasets, pretrained weights and third-party material keep their own licences and terms of use; they are not covered by this licence.
