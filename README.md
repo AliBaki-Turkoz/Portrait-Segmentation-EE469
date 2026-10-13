@@ -84,3 +84,13 @@ The training notebook reads the data from Google Drive (`/content/drive/MyDrive/
 ## Tag
 
 `v1.0-course-submission` marks the state of the project as submitted for the course.
+
+## Team & contributions
+| Member | Contribution |
+|---|---|
+| Ali Baki Türköz | Team member |
+| Emre Öztürk | Team member |
+
+Two-person team. A per-person task split was not recorded in the project documents.
+
+Source: cover page of the course report.
